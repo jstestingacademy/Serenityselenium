@@ -1,0 +1,3 @@
+<configuration>
+    <logger name="net.serenitybdd" level="DEBUG"/>
+</configuration>
