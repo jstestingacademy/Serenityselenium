@@ -1,21 +1,15 @@
 package testrunner;
 
-import org.junit.runner.RunWith;
-
-import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
+
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-    features = "src/test/resources/Features",
-    glue = "StepDefintions",
-    plugin = {
-        "pretty",
-        "json:target/cucumber-report.json",
-        "html:target/cucumber-report.html"
-    },
-    monochrome = true, // Cleaner console output
-    tags = "@Regression" // Run only tests with the @Regression tag
+        plugin = {"pretty", "html:target/cucumber-report.html"},
+        features = "src/test/resources/features",
+        glue = "StepDefintions"  // Ensure this matches your actual package
 )
 public class TestRunner {
 }

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="To validate the login functionality" skipped="0" tests="1" time="0.56" timestamp="2025-03-20 04:20:10"><testcase name="To Test the login functioanlity of Orange hrm"><failure message="Undefined default URL for page object Orangehrmlogin" type="java.lang.AssertionError">Undefined default URL for page object Orangehrmlogin</failure><system-err>Undefined default URL for page object Orangehrmlogin&#13;
-StepDefintions.orangehrmloginsteps.to_launch_the_browser_and_enter_the_url(orangehrmloginsteps.java:25)&#13;
-✽.To launch the browser and enter the url(file:///C:/Users/C2TA/eclipse-workspace/Serenitylearning/src/test/resources/Features/oranghrmlogin.feature:5)&#13;
-</system-err></testcase></testsuite>

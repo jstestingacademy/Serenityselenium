@@ -1,3 +1,4 @@
 testrunner\TestRunner.class
-StepDefintions\orangehrmloginsteps.class
-Pages\Orangehrmlogin.class
+pages\Orangehrmlogin.class
+StepDefintions\beforetest.class
+StepDefintions\OrangeHRMLoginSteps.class
